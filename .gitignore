@@ -2,10 +2,12 @@
 *
 */
 
-# But track markdown and Python files
+# But track markdown, Python files, and metadata files
 !*.md
 !*.py
 !.gitignore
+!section-info.yaml
+!lesson-info.yaml
 
 # Allow directories (so we can traverse into them)
 !*/
