@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+*/
+
+# But track markdown and Python files
+!*.md
+!*.py
+!.gitignore
+
+# Allow directories (so we can traverse into them)
+!*/
+
